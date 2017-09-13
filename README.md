@@ -1,2 +1,2 @@
-# benharritt.github.io
+# Ben Harritt
 Personal Website
