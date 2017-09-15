@@ -11,12 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/tachyons.css">
   </head>
-  <body class="bg-near-white debug">
+  <body class="vh-100 flex flex-column justify-around items-center bg-near-white">
 
-    <div class="flex flex-column flex-row-ns justify-center">
-      <div>Ben Harritt</div>
-      <div>Designer &amp; Developer</div>
-    </div>
+    <header class="flex flex-column flex-row-ns justify-center justify-start-ns w-100 pl5-ns">
+      <div class="system-sans-serif f6 fw7 tracked tc pb1 pr2-ns br bw1 b--black-20">Ben Harritt</div>
+      <div class="system-sans-serif f6 fw3 tracked tc gray pl2-ns">Designer &amp; Developer</div>
+    </header>
 
     <div class="flex flex-column justify-center items-center">
       <a class="link" href="http://twitter.com/benharritt">
@@ -38,6 +38,12 @@
         <img class="db w2 grow" src="assets/social-icons/strava.svg" alt="Ben Harritt on Strava">
       </a>
     </div>
+
+    <footer class="flex flex-row justify-center justify-end-ns w-100">
+      <div class="system-sans-serif f6 fw3 near-black tracked gray pr5-ns tc">
+        👋 Say hi with <a class="link dim" href="mailto:benharritt@gmail.com">electronic mail.</a>.
+      </div>
+    </footer>
 
   </body>
 </html>
